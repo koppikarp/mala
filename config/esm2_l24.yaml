@@ -1,0 +1,17 @@
+# config/esm2_l24.yaml
+fasta_dir: "fasta"
+
+model_name: "facebook/esm2_t33_650M_UR50D"  # optional override
+layer_idx: 24
+latent_dim: 4096
+topk: 20
+
+# floats must be written with a decimal point to parse correctly
+lr: 0.0003
+weight_decay: 0.0001
+l1_lambda: 0.00002
+
+# match the DEFAULT_CFG keys in training.py
+max_tokens_per_batch: 2048
+max_steps: 100000
+
