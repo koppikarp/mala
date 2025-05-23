@@ -1,3 +1,5 @@
-outputs/
-fasta/
+outputs/*
+fasta/*
 scripts/__pycache__
+analysis/*
+.DS_Store
